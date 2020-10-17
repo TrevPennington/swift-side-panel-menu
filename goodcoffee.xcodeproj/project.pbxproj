@@ -15,11 +15,10 @@
 		2DEC608025360DCE003544B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC607E25360DCE003544B3 /* LaunchScreen.storyboard */; };
 		2DEC6088253612A6003544B3 /* CoffeeMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6087253612A6003544B3 /* CoffeeMapVC.swift */; };
 		2DEC608B253612F9003544B3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC608A253612F9003544B3 /* HomeVC.swift */; };
-		2DEC608E25367005003544B3 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC608D25367005003544B3 /* FeaturedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2DEC607025360DCB003544B3 /* goodcoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodcoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC607025360DCB003544B3 /* sidepanelmenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidepanelmenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC607325360DCB003544B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC607525360DCB003544B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DEC607725360DCB003544B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +28,6 @@
 		2DEC608125360DCE003544B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DEC6087253612A6003544B3 /* CoffeeMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMapVC.swift; sourceTree = "<group>"; };
 		2DEC608A253612F9003544B3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		2DEC608D25367005003544B3 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,7 @@
 		2DEC607125360DCB003544B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DEC607025360DCB003544B3 /* goodcoffee.app */,
+				2DEC607025360DCB003544B3 /* sidepanelmenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +60,6 @@
 		2DEC607225360DCB003544B3 /* goodcoffee */ = {
 			isa = PBXGroup;
 			children = (
-				2DEC608C25366FE8003544B3 /* Models */,
 				2DEC6089253612AC003544B3 /* Controllers */,
 				2DEC607325360DCB003544B3 /* AppDelegate.swift */,
 				2DEC607525360DCB003544B3 /* SceneDelegate.swift */,
@@ -84,14 +81,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		2DEC608C25366FE8003544B3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2DEC608D25367005003544B3 /* FeaturedItem.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,7 +98,7 @@
 			);
 			name = goodcoffee;
 			productName = goodcoffee;
-			productReference = 2DEC607025360DCB003544B3 /* goodcoffee.app */;
+			productReference = 2DEC607025360DCB003544B3 /* sidepanelmenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +154,6 @@
 			files = (
 				2DEC607825360DCB003544B3 /* ViewController.swift in Sources */,
 				2DEC608B253612F9003544B3 /* HomeVC.swift in Sources */,
-				2DEC608E25367005003544B3 /* FeaturedItem.swift in Sources */,
 				2DEC607425360DCB003544B3 /* AppDelegate.swift in Sources */,
 				2DEC607625360DCB003544B3 /* SceneDelegate.swift in Sources */,
 				2DEC6088253612A6003544B3 /* CoffeeMapVC.swift in Sources */,
@@ -320,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trev.goodcoffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sidepanelmenu;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -338,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = trev.goodcoffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sidepanelmenu;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

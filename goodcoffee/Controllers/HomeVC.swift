@@ -22,7 +22,7 @@ class HomeVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var menuLeadingAnchorPosition = CGFloat(0.0)
     var menuHidden = true
     
-    let menuOptions = ["account", "favorites", "jobs", "about", "contact"]
+    let menuOptions = ["account", "favorites", "about", "contact"]
     var menuTableView = UITableView()
 
     override func viewDidLoad() {
